@@ -17,7 +17,7 @@ li {
   padding-left: 0;
 }
 
-.title {
+.hero-title {
   width: 519px;
   font-family: "Caveat", cursive;
   font-weight: 700;
@@ -37,6 +37,6 @@ li {
   display: inline-block;
   text-decoration: none;
 }
-.text {
+.hero-text {
   width: 519px;
 }
