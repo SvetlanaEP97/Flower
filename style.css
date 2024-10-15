@@ -9,6 +9,18 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #1f1f1f;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 ul,
@@ -29,11 +41,30 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero-text-wrepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 52px;
 }
 
 .hero-title {
-  width: 519px;
+  width: 478px;
   font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  color: #fc640c;
+}
+
+.hero-heading {
+  width: 478px;
+  font-family: "Caveat", cursive;
+  align-content: center;
   font-weight: 700;
   font-size: 72px;
   line-height: 100%;
@@ -58,6 +89,8 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .menu {
   display: flex;
@@ -84,4 +117,102 @@ li {
 
 .menu-link:hover {
   color: #fc640c;
+}
+
+.adv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.adv-list-item {
+  display: flex;
+  gap: 128px;
+  align-items: center;
+}
+
+.adv-list-text {
+  width: 633px;
+}
+
+.li1 {
+  margin-left: 109px;
+}
+
+.li2 {
+  margin-left: 197px;
+}
+
+.li3 {
+  margin-left: 235px;
+}
+
+.frame {
+  width: 302px;
+  height: 114px;
+  color: #000;
+  gap: 8px;
+}
+
+.quote {
+  text-align: center;
+  padding: 20px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+footer {
+  text-align: right;
+}
+
+.delivery-list {
+  list-style: none;
+  padding: 0;
+}
+
+.delivery-item {
+  margin-bottom: 10px;
+}
+.bouquet-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.bouquet-cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bouquet-card {
+  flex: 0 0 33.33%;
+  padding: 20px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.quote-and-bouquets {
+  text-align: center;
+  padding: 20px;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 20px;
 }
