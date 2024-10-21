@@ -1,0 +1,37 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero-text-wrepper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 52px;
+}
+
+.hero-title {
+  width: 478px;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  color: #fc640c;
+}
+
+.hero-heading {
+  width: 478px;
+  font-family: "Caveat", cursive;
+  align-content: center;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  color: #fc640c;
+}
+
+.hero-text {
+  width: 519px;
+}

@@ -1,0 +1,32 @@
+.bouquet-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.bouquet-cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.bouquet-card {
+  flex: 0 0 33.33%;
+  padding: 20px;
+  text-align: center;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}

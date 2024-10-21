@@ -1,0 +1,42 @@
+.adv-heading {
+  position: absolute;
+  width: 478px;
+  height: 56px;
+  left: calc(50% - 478px / 2);
+  top: 80px;
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  color: #fc640c;
+  align-items: center;
+}
+
+.adv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.adv-list-item {
+  display: flex;
+  gap: 128px;
+  align-items: center;
+}
+
+.adv-list-text {
+  width: 633px;
+}
+
+.li1 {
+  margin-left: 109px;
+}
+
+.li2 {
+  margin-left: 197px;
+}
+
+.li3 {
+  margin-left: 235px;
+}

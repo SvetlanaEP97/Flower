@@ -1,0 +1,46 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+.section {
+  width: 1440px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
+  background-color: #fc640c;
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+  display: inline-block;
+  text-decoration: none;
+}
