@@ -1,16 +1,10 @@
+.adv {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .adv-heading {
-  position: absolute;
-  width: 478px;
-  height: 56px;
-  left: calc(50% - 478px / 2);
-  top: 80px;
-  font-family: "Caveat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 100%;
-  color: #fc640c;
-  align-items: center;
+  margin-bottom: 48px;
 }
 
 .adv-list {

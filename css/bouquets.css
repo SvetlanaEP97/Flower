@@ -1,39 +1,122 @@
+.bouquets {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bouquets-subtitle {
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
 .bouquet-slider {
+  display: flex;
   overflow: hidden;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .bouquet-cards {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  gap: 24px;
+  align-items: center;
 }
 
 .bouquet-card {
-  flex: 0 0 33.33%;
-  padding: 20px;
   text-align: center;
+}
+.bouquter-image {
+  width: 302px;
+  height: 308px;
+  object-fit: cover;
+  border-radius: 32px;
+}
+
+.center > .bouquter-image {
+  width: 410px;
+  height: 420px;
+}
+
+.bouquet-name {
+  font-weight: 600;
+  color: #fc640c;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.center > .bouquter-name {
+  font-size: 22px;
+  line-height: 150%;
 }
 
 .prev,
 .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 24px;
+  font-size: 40px;
   cursor: pointer;
+  color: #fbb48b;
+  padding: 22px 30px;
+  display: block;
+  background-color: transparent;
+  border: none;
 }
 
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
-.bouquets {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.title {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  color: #fc640c;
   text-align: center;
+}
+
+.quote-text {
+  width: 1062px;
+  height: 96px;
+  left: calc(50% - 1062px / 2);
+  top: 88px;
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #1f1f1f;
+  margin-left: 400px;
+}
+
+.quote-autor {
+  width: 195px;
+  height: 28px;
+  left: calc(50% - 195px / 2 - 0.5px);
+  top: 232px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  color: #1f1f1f;
+}
+
+.frame-text {
+  width: 238px;
+  height: 90px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #1f1f1f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Menu {
+  position: absolute;
+  width: 302px;
+  height: 132px;
+  left: 189px;
+  top: 48px;
 }
