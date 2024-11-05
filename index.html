@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -92,11 +92,7 @@
       </ul>
     </section>
     <section class="quote-and-bouquets">
-      <blockquote
-        class="quote-section"
-        img
-        src="background-image:url('./img/backround/delivery-background.jpg')"
-      >
+      <blockquote class="quote-section">
         <p class="quote-text">
           "Flowers always make people better, happier, and more helpful; they
           are sunshine, food and medicine for the soul."
@@ -133,7 +129,7 @@
             <h3 class="bouquet-name">Orchid Delight</h3>
             <p>From 1500 ₴</p>
           </li>
-          <class class="bouquet-card">
+          <li class="bouquet-card">
             <img
               class="bouquter-image"
               src="./img/bouquets/bouquet3.jfif"
@@ -141,17 +137,14 @@
             />
             <h3 class="bouquet-name">Tropical Paradise</h3>
             <p>From 1200 ₴</p>
-          </class>
+          </li>
         </ul>
         <button class="next">&#10095;</button>
       </div>
     </section>
-    <section
-      class="delivery section bouquter-image"
-      img
-      src="background-image: url('./img/background/quote-background.jpg')"
-    >
-      <ul class="frame-text">
+    <section class="delivery section">
+      <h2 class="title delivery-title">Features of delivery</h2>
+      <ul class="frame-list">
         <li class="frame">
           <p>Delivery of flowers anywhere in Ukraine in 24 hours.</p>
         </li>
@@ -166,30 +159,160 @@
         </li>
       </ul>
     </section>
-    <section class="menu section">
-      <u<l class="menu-text">
-        <li>
-          <p>FloverLover</p>
-        </li>
-        <li>
-          <p>Why FloverLover?</p>
-        </li>
-        <li>
-          <p>Reviews</p>
-        </li>
-        <li>
-          <p>Our bouquets</p>
-        </li>
-        <li>
-          <p>Order</p>
-        </li>
-        <li>
-          <p>Delivery</p>
-        </li>
-             
-      </ul>
-    </section>
-    <footer class="section"></footer>
+    <div>
+      <section class="reviews">
+        <div class="reviews-container">
+          <h2 class="title">Reviews of our customers</h2>
+          <div class="review">
+            <img
+              class="review-img"
+              src="./img/reviews/review1.png"
+              alt="review1"
+            />
+            <div class="review-text">
+              <h3 class="customer-name">Devid</h3>
+              <p>
+                This is the most amazing online flower delivery shop I have ever
+                used. I ordered a bouquet for my girlfriend on Valentines Day,
+                and she was over the moon. The flowers were stunning and
+                fragrant, the delivery was free and fast.
+              </p>
+            </div>
+          </div>
+          <div class="review">
+            <img
+              class="review-img"
+              src="./img/reviews/review2.png"
+              alt="review2"
+            />
+            <div class="review-text">
+              <h3 class="customer-name">Anna</h3>
+              <p>
+                This is the best online flower delivery shop I have ever seen. A
+                large selection of flowers, attractive prices, guarantee of
+                freshness and quality. I ordered a bouquet for my friends
+                birthday, and she was very happy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-container">
+          <div class="review">
+            <img
+              class="review-img"
+              src="./img/reviews/review3.png"
+              alt="review3"
+            />
+            <div class="review-text">
+              <h3 class="customer-name">Marina</h3>
+              <p>
+                This is the best online flower delivery shop I have ever seen. A
+                large selection of flowers, attractive prices, guarantee of
+                freshness and quality. I ordered a bouquet for my friends
+                birthday, and she was very happy.
+              </p>
+            </div>
+          </div>
+          <div class="review">
+            <img
+              class="review-img"
+              src="./img/reviews/review4.png"
+              alt="review4"
+            />
+            <div class="review-text">
+              <h3 class="customer-name">Andrew</h3>
+              <p>
+                I love this online flower delivery shop. I ordered a bouquet for
+                my sister on her graduation day, and she was very grateful. The
+                flowers were gorgeous and fresh, the delivery was on time and
+                courteous. Thank you!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="order section">
+      <form>
+        <h2 class="title">Order your boquets</h2>
+        <div>
+          <label for="name">Your name:</label>
+          <input
+            type="text"
+            name="client_name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label for="phone">Your phone:</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="+380XXXXXXXX"
+          />
+        </div>
+        <div>
+          <label for="number">Number of bouquets:</label>
+          <input
+            type="text"
+            name="number"
+            id="number"
+            placeholder="Enter number"
+          />
+        </div>
+        <div>
+          <label for="price">Approximate cost of one bouquet:</label>
+          <input
+            type="text"
+            name="price"
+            id="price"
+            placeholder="Enter price"
+          />
+        </div>
+        <div>
+          <label for="reason">The reason for buying a bouquet:</label>
+          <input
+            type="text"
+            name="reason"
+            id="reason"
+            placeholder="Enter reason"
+          />
+        </div>
+        <div>
+          <label for="comment">Comment</label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter comment"
+          ></textarea>
+        </div>
+        <button class="button">Order a bouquet</button>
+      </form>
+      <div class="menu">
+        <ul class="menu-text">
+          <li>
+            <p>FloverLover</p>
+          </li>
+          <li>
+            <p>Why FloverLover?</p>
+          </li>
+          <li>
+            <p>Reviews</p>
+          </li>
+          <li>
+            <p>Our bouquets</p>
+          </li>
+          <li>
+            <p>Order</p>
+          </li>
+          <li>
+            <p>Delivery</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

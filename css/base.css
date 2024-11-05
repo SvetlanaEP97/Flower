@@ -44,3 +44,13 @@ li {
   display: inline-block;
   text-decoration: none;
 }
+
+.title {
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  color: #fc640c;
+  text-align: center;
+}

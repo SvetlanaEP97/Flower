@@ -1,6 +1,5 @@
 .quote-section {
-  text-align: center;
-  padding: 20px;
+  margin: 0;
 }
 
 .blockquote {
@@ -8,6 +7,28 @@
 }
 
 .quote-and-bouquets {
+  background-image: url("../img/background/quote-background.jpg");
   text-align: center;
-  padding: 20px;
+  padding-top: 88px;
+  padding-bottom: 88px;
+}
+.quote-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1062px;
+  font-family: "Caveat";
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.quote-autor {
+  display: block;
+  margin-top: 48px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 28px;
+  line-height: 100%;
+  color: #1f1f1f;
 }
