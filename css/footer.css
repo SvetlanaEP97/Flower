@@ -1,0 +1,25 @@
+.order {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(/img/background/order-background-left.png),
+    url(/img/background/order-background-right.png);
+  background-repeat: no-repeat;
+  background-position: left 80px top 80px, top 120px right 80px;
+}
+
+.order-form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52px 56px;
+  gap: 21px;
+
+  width: 628px;
+  height: 817px;
+
+  border: 1px solid #fc640c;
+  border-radius: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}

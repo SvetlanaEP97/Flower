@@ -1,0 +1,28 @@
+.order-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.order-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  width: 516px;
+  height: 43px;
+  background: #ffffff;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+.order-input::placeholder {
+  color: #bfbfbf;
+}
+.order-input.textarea {
+  height: 100px;
+  resize: none;
+}

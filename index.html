@@ -160,9 +160,9 @@
       </ul>
     </section>
     <div>
-      <section class="reviews">
+      <section class="reviews section">
+        <h2 class="title">Reviews of our customers</h2>
         <div class="reviews-container">
-          <h2 class="title">Reviews of our customers</h2>
           <div class="review">
             <img
               class="review-img"
@@ -195,8 +195,7 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="reviews-container">
+
           <div class="review">
             <img
               class="review-img"
@@ -231,58 +230,63 @@
           </div>
         </div>
       </section>
-    </div>
-    <footer class="order section">
-      <form>
+    <section class="order section">
+      <form class="order-form">
         <h2 class="title">Order your boquets</h2>
-        <div>
+        <div class="order-input-wrapper">
           <label for="name">Your name:</label>
           <input
+          class="order-input"
             type="text"
             name="client_name"
             id="name"
             placeholder="Enter your name"
           />
         </div>
-        <div>
+        <div class="order-input-wrapper">
           <label for="phone">Your phone:</label>
           <input
+          class="order-input"
             type="text"
             name="phone"
             id="phone"
             placeholder="+380XXXXXXXX"
           />
         </div>
-        <div>
+        <div class="order-input-wrapper">
           <label for="number">Number of bouquets:</label>
           <input
+          class="order-input"
             type="text"
             name="number"
             id="number"
             placeholder="Enter number"
           />
         </div>
-        <div>
+        <div class="order-input-wrapper">
           <label for="price">Approximate cost of one bouquet:</label>
           <input
+          class="order-input"
             type="text"
             name="price"
             id="price"
             placeholder="Enter price"
           />
         </div>
-        <div>
+        <div class="order-input-wrapper">
           <label for="reason">The reason for buying a bouquet:</label>
           <input
+          class="order-input"
             type="text"
             name="reason"
             id="reason"
             placeholder="Enter reason"
           />
         </div>
-        <div>
+        <div class="order-input-wrapper">
           <label for="comment">Comment</label>
           <textarea
+          class="order-input"
             name="comment"
             id="comment"
             placeholder="Enter comment"
@@ -290,6 +294,8 @@
         </div>
         <button class="button">Order a bouquet</button>
       </form>
+      </section>
+      <footer class="footer section">
       <div class="menu">
         <ul class="menu-text">
           <li>
