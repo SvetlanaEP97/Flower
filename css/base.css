@@ -55,3 +55,11 @@ li {
   color: #fc640c;
   text-align: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .section {
+    width: 834px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -35,3 +35,13 @@
 .hero-text {
   width: 519px;
 }
+
+@media screen and (max-width: 1439px) {
+  .hero-title {
+    width: 755px;
+    font-size: 60px;
+  }
+  .hero-text {
+    width: 362px;
+  }
+}
