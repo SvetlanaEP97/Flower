@@ -15,7 +15,6 @@
 
 .adv-list-item {
   display: flex;
-  gap: 128px;
   align-items: center;
 }
 
@@ -33,4 +32,6 @@
 
 .li3 {
   margin-left: 235px;
+}
+@media screen and (max-widht: 1439px) {
 }

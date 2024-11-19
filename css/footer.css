@@ -23,3 +23,35 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.footer {
+  width: 1440px;
+  height: 228px;
+  background: #fee1d1;
+}
+
+.menu {
+  width: 302px;
+  height: 132px;
+  left: 189px;
+  top: 48px;
+}
+
+.additionally {
+  width: 140px;
+  height: 36px;
+  left: calc(50% - 140px / 2 + 1px);
+  top: 0px;
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  color: black;
+}
+.contacts {
+  width: 628px;
+  height: 142px;
+  left: 623px;
+  top: 48px;
+}

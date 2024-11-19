@@ -37,11 +37,29 @@
 }
 
 @media screen and (max-width: 1439px) {
+  .hero {
+    position: relative;
+  }
+
+  .hero-text-wrepper {
+    gap: 56px;
+  }
+
   .hero-title {
     width: 755px;
     font-size: 60px;
+    line-height: 100%;
   }
   .hero-text {
     width: 362px;
+  }
+  .hero-image {
+    position: absolute;
+    width: 471.06px;
+    height: 535.35px;
+    left: 344.53px;
+    top: 86.43px;
+    border-radius: 32px;
+    transform: rotate(-28.48deg);
   }
 }
