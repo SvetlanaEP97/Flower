@@ -39,6 +39,7 @@
 @media screen and (max-width: 1439px) {
   .hero {
     position: relative;
+    overflow: hidden;
   }
 
   .hero-text-wrepper {
@@ -57,9 +58,10 @@
     position: absolute;
     width: 471.06px;
     height: 535.35px;
-    left: 344.53px;
+    left: 450.53px;
     top: 86.43px;
     border-radius: 32px;
     transform: rotate(-28.48deg);
+    z-index: -1;
   }
 }

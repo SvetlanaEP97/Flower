@@ -33,5 +33,22 @@
 .li3 {
   margin-left: 235px;
 }
-@media screen and (max-widht: 1439px) {
+@media screen and (max-width: 1439px) {
+  .advantages-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .adv-list-text1 {
+    width: 634px;
+  }
+  .adv-list-text2 {
+    width: 602px;
+  }
+  .adv-list-text3 {
+    width: 570px;
+  }
+  .adv-list-text {
+    margin-left: 40px;
+  }
 }
