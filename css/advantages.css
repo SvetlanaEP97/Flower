@@ -20,6 +20,7 @@
 
 .adv-list-text {
   width: 633px;
+  margin-left: 128px;
 }
 
 .li1 {
@@ -39,14 +40,16 @@
     height: 80px;
   }
 
-  .adv-list-text1 {
-    width: 634px;
+  .li1 {
+    margin-left: 0;
   }
-  .adv-list-text2 {
-    width: 602px;
+
+  .li2 {
+    margin-left: 32px;
   }
-  .adv-list-text3 {
-    width: 570px;
+
+  .li3 {
+    margin-left: 64px;
   }
   .adv-list-text {
     margin-left: 40px;
